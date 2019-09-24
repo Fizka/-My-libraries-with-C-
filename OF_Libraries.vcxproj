@@ -23,6 +23,7 @@
     <ProjectGuid>{EB887CF4-5BC9-44D5-AB55-5E2B51FFB77E}</ProjectGuid>
     <RootNamespace>OFLibraries</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>AO_Libraries</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,6 +116,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="OL_Exception.cpp" />
+    <ClCompile Include="OL_FilesIO.cpp" />
+    <ClCompile Include="OL_SortingAlgorithmsLibrary.cpp" />
+    <ClCompile Include="Test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OL_Exception.h" />
+    <ClInclude Include="OL_FilesIO.h" />
+    <ClInclude Include="OL_SortingAlgorithmsLibrary.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
